@@ -1,6 +1,6 @@
 # Two way iframe communication
 
-The only thing different between the two pages is the method of sending message. Recieving messages is the same in both.
+The main difference between the two pages is the method of sending messages. Recieving messages is the same in both.
 
 ## Parent
 
