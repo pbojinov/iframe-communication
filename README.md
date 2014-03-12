@@ -1,13 +1,19 @@
 # Two way iframe communication
 
-The main difference between the two pages is the method of sending messages. Recieving messages is the same in both.
+Seamless communication between an iframe and a parent page.
 
-## Parent
+## Demo
+
+[http://pbojinov.github.io/iframe-communication](http://pbojinov.github.io/iframe-communication/)
+
+The main difference between the code in the two pages (parent and iframe) is the method of sending messages. Recieving messages is done using the same code.
+
+### parent
 
 Send messages to iframe using `iframeEl.contentWindow.postMessage`
 Recieve messages using `window.addEventListener('message')`
 
-## iframe
+### iframe
 
 Send messages to parent window using `window.parent.postMessage`
 Recieve messages using `window.addEventListener('message')`
