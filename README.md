@@ -10,13 +10,15 @@ The main difference between the code in the two pages (parent and iframe) is the
 
 ### parent
 
-Send messages to iframe using `iframeEl.contentWindow.postMessage`
-Recieve messages using `window.addEventListener('message')`
+Send message to iframe using `iframeEl.contentWindow.postMessage`
+
+Recieve message using `window.addEventListener('message')`
 
 ### iframe
 
-Send messages to parent window using `window.parent.postMessage`
-Recieve messages using `window.addEventListener('message')`
+Send message to parent window using `window.parent.postMessage`
+
+Recieve message using `window.addEventListener('message')`
 
 ## License
 
